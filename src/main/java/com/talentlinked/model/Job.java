@@ -9,8 +9,6 @@ import javax.persistence.Table;
 @Entity
 @Table(name = "job")
 public class Job {
-
-    //hi
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private Long id;
